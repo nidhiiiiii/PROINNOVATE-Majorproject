@@ -1,0 +1,15 @@
+E-Voting System: Revolutionizing Voting with Blockchain Technology
+
+Introduction:
+The e-voting system aims to address the challenges faced by traditional voting systems by leveraging blockchain technology to create a secure and tamper-proof voting platform.
+
+Key Features:
+
+Utilization of blockchain technology for secure and tamper-proof voting
+Accessibility: Allows eligible voters to cast their ballot using their cell phone or computer
+Authentication: A unique one-time password is sent to the voter's verified email ID to ensure authenticity
+Secure and Privacy-Preserving Polling: Utilizes web technology and blockchain data storage to provide secure and privacy-preserving polling
+Secure Operations on Encrypted Data: The system has a method to execute operations on encrypted data without decrypting them, ensuring the same results as if operations were performed directly on raw data
+Cost-Effectiveness: Not only secure but also cost-effective, making it an attractive alternative to traditional polling systems
+Conclusion:
+The e-voting system offers a secure, accessible, and cost-effective solution to traditional voting systems, revolutionizing the way elections are conducted and ensuring the integrity of the democratic process.

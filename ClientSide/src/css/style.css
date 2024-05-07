@@ -1,0 +1,289 @@
+@keyframes tilt {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(10deg); } /* Adjust the degree of tilt as needed */
+  100% { transform: rotate(0deg); }
+}
+
+.content-card{
+   padding: 50px;
+   text-align: center;
+  text-transform: capitalize;
+  border: 0;
+  animation: tilt 1s ease-in-out;
+}
+
+
+.home-text{
+   font-style: oblique;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(211, 229, 13);
+    
+}
+.grad-color{
+  /* background: linear-gradient(to left, #ffb0a4, #ffeab7); */
+    
+  background: linear-gradient(to left, #dff1f9, #feffff);
+
+}
+.image {
+  background: url("/project3.png");
+  min-height: 100vh;
+width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
+
+
+.home-nav-height{
+    height: 70px;
+}
+.margin-top{
+    margin-top: 70px;
+}
+.typed  {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 4s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .footerHeight{
+    height: 100px;
+  /* background-color: rgb(47, 95, 75); */
+  color: antiquewhite;
+  text-align: center;
+  font-size: large;
+ 
+  
+  }
+  .vertical-line {
+    border-left: 1px solid black; /* Adjust color and width as needed */
+    height: 100%; /* Make the line span the entire height */
+}
+  .footer-position{
+    position: relative;
+   bottom: 0;
+  }
+  /* The Modal */
+.mymodal {
+   /*display: none; Hidden by default */
+  position: fixed; /* Stay in place */
+   z-index: 1;/* Sit on top */
+  left: 0; 
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ /* background-color: rgb(0,0,0);  Fallback color */
+ /* background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.mymodal-content {
+  /* background-color: #fefefe; */
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  /* border: 1px solid #888; */
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.my-hover:hover{
+color: rgb(255, 255, 255);
+background-color:rgb(131, 228, 240);
+}
+/* Close Button */
+.close-modal {
+  color: #aaa;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signin-form{
+
+padding: 5px;
+}
+.my-input{
+  width: 50%;
+  height: 35px;
+  padding: 10px;
+}
+.input:focus{
+ color: rgb(131, 210, 199);
+ border: 3px inset rgb(131, 210, 199);
+}
+.my-box{
+  border: 1px inset rgb(131, 210, 199);
+  border-radius: 10px;
+  text-align: center;
+}
+  
+.my-button{
+  border: 1px inset rgb(131, 210, 199);
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+.my-label{
+  padding: 10px;
+ margin-right: 10px;
+}
+.text-area-label{
+  position: relative;
+  bottom: 25px;
+  padding: 10px;
+}
+.my-file-input{
+  padding: 5px;
+}
+
+
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+.custom-vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+  min-height: 700px;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+
+.text-gray {
+  color: #aaa;
+}
+.search-input{
+   height: 38px;
+    text-indent: 33px;
+    border-radius: 20px;
+    width: 40rem;
+   
+}
+.nav-align{
+ 
+  position: relative;
+  bottom: 5px;
+  padding: 10px;
+  left: 40px;
+}
+.search-button{
+  position: relative;
+  right: 50px;
+}
+
+
+
+
+.custom-page-content {
+  width: calc(100% - 17rem);
+  margin-right: 17rem;
+  transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+.custom-sidebar.active {
+  margin-right: -17rem;
+}
+
+.custom-content.active {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .custom-sidebar {
+    margin-right: -17rem;
+  }
+  .custom-sidebar.active {
+    margin-right: 0;
+  }
+  .custom-content {
+    width: 100%;
+    margin: 0;
+  }
+  .custom-content.active {
+    margin-right: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+.margin-left{
+  margin-left: 300px;
+}
+.description{
+  padding: 10px;
+}
